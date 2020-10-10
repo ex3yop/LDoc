@@ -1,3 +1,9 @@
+fork this LDoc, try to fit emmylua style annotation.
+
+
+
+
+
 # LDoc - A Lua Documentation Tool
 
 [![Luacheck](https://github.com/lunarmodules/LDoc/workflows/Luacheck/badge.svg)](https://github.com/lunarmodules/LDoc/actions)
