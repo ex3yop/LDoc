@@ -497,7 +497,7 @@ function Item:set_tag (tag,value)
             if tag == 'class' and value:contains 'example' then
                self:error("cannot use 'example' tag for functions or tables. Use 'usage'")
             else
-               self:error("'"..tag.."' cannot have multiple values; "..tostring(value))
+               --self:error("'"..tag.."' cannot have multiple values; "..tostring(value))
             end
          end
          value = value[1]
@@ -934,7 +934,7 @@ function Item:build_return_groups()
       end
       --require 'pl.pretty'.dump(ret)
       if not mods then
-         self:error(quote(self.name)..' had no return?')
+         --self:error(quote(self.name)..' had no return?')
       end
       group:append({text=ret, type = mods and (mods.type or '') or '',mods = mods})
    end
