@@ -738,7 +738,8 @@ function Item:finish()
 
       for i,name in ipairs(original_names) do
          if type(name) ~= 'string' then
-            self:error("declared table cannot have array entries")
+            --self:error("declared table cannot have array entries")
+            break
          end
          local pname,field = split_iden(name)
          if field then
