@@ -1,5 +1,5 @@
-```diff 
-fork from [LDoc](https://github.com/lunarmodules/LDoc), try to fit emmylua style annotation.
+```
+fork from LDoc(https://github.com/lunarmodules/LDoc), try to fit emmylua style annotation.
 ```
 
 
