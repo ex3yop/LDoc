@@ -1,7 +1,6 @@
-fork this LDoc, try to fit emmylua style annotation.
-the original project [LDoc](https://github.com/lunarmodules/LDoc) is here, this project just comment out few lines.
-
-
+```diff 
+fork from [LDoc](https://github.com/lunarmodules/LDoc), try to fit emmylua style annotation.
+```
 
 
 # LDoc - A Lua Documentation Tool
